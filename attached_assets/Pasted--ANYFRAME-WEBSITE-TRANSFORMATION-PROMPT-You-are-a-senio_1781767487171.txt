@@ -1,0 +1,391 @@
+# ANYFRAME WEBSITE TRANSFORMATION PROMPT
+
+You are a senior UI/UX designer, brand strategist, copywriter, and Next.js engineer.
+
+Your task is to transform this existing premium 3D developer portfolio into a luxury digital agency website for **AnyFrame**.
+
+## CRITICAL RULES
+
+DO NOT redesign the website.
+
+DO NOT remove existing animations.
+
+DO NOT remove the 3D hero.
+
+DO NOT change the visual identity, premium feeling, glassmorphism effects, transitions, camera movements, scroll animations, hover effects, loading sequence, or page flow.
+
+The goal is to preserve the award-winning experience while converting the content and positioning from a personal developer portfolio into a premium digital agency.
+
+---
+
+# COMPANY INFORMATION
+
+Agency Name:
+AnyFrame
+
+Tagline:
+Growth, Creativity, and Technology—Perfectly Framed
+
+Services:
+
+* Digital Marketing
+* Content Creation
+* Social Media Management
+* Website Development
+* Custom Software Development
+* Branding & Creative Design
+
+Experience:
+4+ Years
+
+Brands Worked With:
+
+* Vimal Vatika
+* Opticlair
+
+Additional Credibility:
+
+* Own YouTube Channel
+* Real-world content creation experience
+* Software development expertise
+* Marketing strategy expertise
+
+---
+
+# GLOBAL CONTENT STRATEGY
+
+The website should feel like:
+
+Awwwards Agency Website
+Luxury Creative Studio
+Modern Technology Company
+Premium Digital Growth Partner
+
+NOT:
+
+Freelancer Portfolio
+Personal Resume
+Developer Showcase
+AI Engineer Portfolio
+
+Whenever content sounds like an individual developer, rewrite it to represent a professional agency.
+
+---
+
+# HERO SECTION
+
+Keep:
+
+* Existing layout
+* Existing 3D character
+* Existing animations
+* Existing CTA animation
+* Existing background effects
+
+Replace content with:
+
+Badge:
+4+ Years of Industry Experience
+
+Heading:
+Growth, Creativity, and Technology—Perfectly Framed
+
+Subheading:
+Helping businesses scale through digital marketing, content creation, and modern software solutions.
+
+Description:
+AnyFrame combines strategy, creativity, and technology to help brands grow faster. From content creation and digital marketing to custom websites and software development, we build solutions designed for measurable business impact.
+
+CTA Buttons:
+Start Your Project
+View Our Work
+
+---
+
+# ABOUT SECTION
+
+Rename:
+About Me
+
+To:
+About AnyFrame
+
+Replace all personal developer references.
+
+New positioning:
+
+AnyFrame is a full-service digital agency focused on helping businesses grow through strategic marketing, engaging content, and modern technology solutions.
+
+For over four years, we have partnered with businesses to strengthen their digital presence, improve customer engagement, and build scalable digital products.
+
+We have worked with brands including Vimal Vatika and Opticlair while continuing to create educational content and industry insights through our YouTube channel.
+
+Stats:
+
+4+ Years Experience
+
+50+ Projects Delivered
+
+2+ Featured Brand Collaborations
+
+Digital Marketing & Software Development Experts
+
+---
+
+# SKILLS SECTION
+
+Do not present as technical skills.
+
+Transform into service pillars.
+
+Column 1:
+
+Content Creation
+
+Tools:
+Content Strategy
+Copywriting
+SEO
+Blog Writing
+Social Media Content
+Canva
+Adobe Creative Suite
+Meta Business Suite
+Google Analytics
+Audience Research
+
+Description:
+Building content that drives visibility, engagement, and trust.
+
+Column 2:
+
+Software Development
+
+Tools:
+React
+Next.js
+Node.js
+TypeScript
+MongoDB
+PostgreSQL
+REST APIs
+Docker
+Git
+
+Description:
+Developing modern websites, platforms, and scalable business solutions.
+
+---
+
+# EXPERIENCE SECTION
+
+This section currently represents a personal career timeline.
+
+Transform it into:
+
+Agency Journey
+
+Timeline:
+
+2021
+Started our journey in content creation and digital services.
+
+2022
+Delivered our first commercial projects and expanded creative capabilities.
+
+2023
+Entered digital marketing and social media growth services.
+
+2024
+Expanded into website development and custom software solutions.
+
+2025
+Successfully collaborated with brands including Vimal Vatika and Opticlair.
+
+2026
+Continuing to help businesses grow through technology, creativity, and strategy.
+
+Keep existing timeline design and animations.
+
+---
+
+# PROJECTS SECTION
+
+Convert all personal projects into agency case studies.
+
+Remove:
+AI chatbots
+Chess engines
+Blockchain projects
+Developer portfolio projects
+
+Create agency-focused projects:
+
+Vimal Vatika
+
+Category:
+Digital Marketing
+
+Description:
+Created content and marketing campaigns that improved online engagement and strengthened brand visibility.
+
+---
+
+Opticlair
+
+Category:
+Brand Growth
+
+Description:
+Developed creative campaigns and digital assets that enhanced customer reach and online presence.
+
+---
+
+Business Website Development
+
+Category:
+Web Development
+
+Description:
+Designed and developed high-performance websites optimized for user experience and lead generation.
+
+---
+
+Custom Software Solutions
+
+Category:
+Software Development
+
+Description:
+Built tailored business applications and automation systems designed to improve operational efficiency.
+
+---
+
+Content Growth Campaign
+
+Category:
+Content Creation
+
+Description:
+Produced strategic content and audience-focused campaigns that increased engagement and brand awareness.
+
+Keep:
+Cards
+Hover effects
+Tilt effects
+Animations
+Project transitions
+
+---
+
+# SERVICES SECTION
+
+Cards:
+
+Digital Marketing
+
+Content Creation
+
+Social Media Management
+
+Website Development
+
+Custom Software Development
+
+Branding & Creative Design
+
+Each card should emphasize outcomes and business growth rather than technical implementation.
+
+---
+
+# TESTIMONIAL SECTION
+
+Keep slider and animations.
+
+Rewrite testimonials to reflect:
+
+Professionalism
+
+Creativity
+
+Results
+
+Communication
+
+Business Growth
+
+Premium service experience
+
+---
+
+# YOUTUBE SECTION
+
+Add dedicated section.
+
+Title:
+Sharing Knowledge Beyond Client Work
+
+Description:
+
+We actively create content through our YouTube channel, sharing insights about digital marketing, technology, content creation, and business growth.
+
+Staying connected with industry trends allows us to deliver better strategies and innovative solutions for our clients.
+
+---
+
+# CONTACT SECTION
+
+Heading:
+Let's Build Something Exceptional
+
+Description:
+
+Whether you need a marketing strategy, content creation, a modern website, or custom software development, AnyFrame is ready to help.
+
+CTA:
+Book a Free Consultation
+
+Replace all developer contact details with AnyFrame business information.
+
+---
+
+# FOOTER
+
+Agency Name:
+AnyFrame
+
+Tagline:
+Growth, Creativity, and Technology—Perfectly Framed
+
+Description:
+Building digital experiences that help businesses grow.
+
+---
+
+# PERFORMANCE REQUIREMENTS
+
+Maintain:
+
+60 FPS animations
+
+No layout shifts
+
+No animation conflicts
+
+No stuttering
+
+No flickering
+
+No scroll lag
+
+No CLS issues
+
+No hydration issues
+
+No visual regressions
+
+Keep all existing Framer Motion, GSAP, Three.js, R3F, and scroll interactions intact.
+
+Only improve content, UX clarity, credibility, conversion, and agency positioning.
+
+The final result should feel like a premium digital agency website while preserving the existing luxury portfolio experience.
