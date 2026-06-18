@@ -1,193 +1,191 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "AnyFrame",
+        fullName: "AnyFrame",
+        title: "Growth, Creativity, and Technology—Perfectly Framed",
+        description: "AnyFrame combines strategy, creativity, and technology to help brands grow faster. From content creation and digital marketing to custom websites and software development, we build solutions designed for measurable business impact."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "anyframe",
+        email: "hello@anyframe.agency",
+        location: "India"
     },
     about: {
-        title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        title: "About AnyFrame",
+        description: "AnyFrame is a full-service digital agency focused on helping businesses grow through strategic marketing, engaging content, and modern technology solutions. For over four years, we have partnered with businesses to strengthen their digital presence, improve customer engagement, and build scalable digital products. We have worked with brands including Vimal Vatika and Opticlair while continuing to create educational content and industry insights through our YouTube channel."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "Technology & Strategy Expansion",
+            company: "AnyFrame",
+            period: "2026 - Present",
+            location: "India",
+            description: "Continuing to help businesses grow through technology, creativity, and strategy — delivering measurable digital impact for every client we partner with.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Scaling client campaigns across digital marketing channels",
+                "Delivering custom software and web development solutions",
+                "Expanding brand partnerships and creative collaborations",
+                "Strengthening agency processes and creative output"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["Digital Strategy", "Web Development", "Software", "Growth Marketing"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
+            position: "Brand Collaborations",
+            company: "AnyFrame",
             period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            location: "India",
+            description: "Successfully collaborated with brands including Vimal Vatika and Opticlair, delivering creative campaigns and digital assets that enhanced customer reach and online presence.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Developing creative campaigns for Vimal Vatika",
+                "Delivering digital assets and brand content for Opticlair",
+                "Managing social media growth and engagement",
+                "Building performance-driven digital strategies"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            technologies: ["Branding", "Content Creation", "Social Media", "Campaign Management"]
         },
         {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
+            position: "Web & Software Development",
+            company: "AnyFrame",
             period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            location: "India",
+            description: "Expanded into website development and custom software solutions, designing and building high-performance websites optimized for user experience and lead generation.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Designing and developing client websites",
+                "Building custom software and business applications",
+                "Integrating automation systems for operational efficiency",
+                "Delivering full-stack web solutions for diverse industries"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
+            technologies: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL"]
         },
         {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
+            position: "Digital Marketing Services",
+            company: "AnyFrame",
             period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
+            location: "India",
+            description: "Entered digital marketing and social media growth services, helping businesses improve their online visibility and customer engagement through data-driven strategies.",
             responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
+                "Planning and executing digital marketing campaigns",
+                "Growing client social media presence and engagement",
+                "Developing SEO and content strategies",
+                "Analyzing performance metrics and optimizing results"
             ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
+            technologies: ["Digital Marketing", "SEO", "Social Media", "Analytics", "Meta Business Suite"]
         },
         {
-            position: "Graphic Designer",
-            company: "Freelance",
+            position: "Commercial Projects & Creative Work",
+            company: "AnyFrame",
             period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
+            location: "India",
+            description: "Delivered our first commercial projects and expanded creative capabilities, establishing a reputation for quality content and effective brand communication.",
             responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
+                "Delivering content and creative projects for clients",
+                "Developing brand identity and visual communication",
+                "Building a portfolio of diverse creative work",
+                "Refining our agency processes and client workflows"
             ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
+            technologies: ["Canva", "Adobe Creative Suite", "Copywriting", "Brand Design"]
         },
         {
-            position: "Microsoft Office",
-            company: "Begin Learning",
+            position: "Agency Founded",
+            company: "AnyFrame",
             period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
+            location: "India",
+            description: "Started our journey in content creation and digital services, laying the foundation for what would become a full-service digital agency.",
             responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
+                "Launching content creation and digital services",
+                "Building our initial client base and partnerships",
+                "Establishing the AnyFrame brand and YouTube channel",
+                "Developing our creative and strategic capabilities"
             ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["Content Creation", "YouTube", "Digital Services", "Strategy"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
+            title: "Vimal Vatika",
+            category: "Digital Marketing",
+            technologies: "Content Strategy, Social Media Management, Campaign Management, Analytics",
             image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            description: "Created content and marketing campaigns that improved online engagement and strengthened brand visibility for Vimal Vatika."
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
+            title: "Opticlair",
+            category: "Brand Growth",
+            technologies: "Creative Campaigns, Digital Assets, Brand Communication, Social Media",
+            image: "/images/gamekroy.png",
+            description: "Developed creative campaigns and digital assets that enhanced customer reach and online presence for Opticlair."
         },
         {
             id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
+            title: "Business Website Development",
+            category: "Web Development",
+            technologies: "React, Next.js, Node.js, TypeScript, TailwindCSS, REST APIs",
             image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
+            description: "Designed and developed high-performance websites optimized for user experience and lead generation across multiple industries."
         },
         {
             id: 4,
-            title: "GameKroy",
-            category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
+            title: "Custom Software Solutions",
+            category: "Software Development",
+            technologies: "Node.js, MongoDB, PostgreSQL, Docker, REST APIs, TypeScript",
+            image: "/images/votechain.png",
+            description: "Built tailored business applications and automation systems designed to improve operational efficiency and scale business processes."
         },
         {
             id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
+            title: "Content Growth Campaign",
+            category: "Content Creation",
+            technologies: "Content Strategy, Copywriting, SEO, Canva, Adobe Creative Suite, Analytics",
+            image: "/images/floodhub.png",
+            description: "Produced strategic content and audience-focused campaigns that increased engagement and brand awareness for growing businesses."
         },
         {
             id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
+            title: "Social Media Management",
+            category: "Social Media",
+            technologies: "Meta Business Suite, Content Planning, Analytics, Audience Research, Scheduling",
+            image: "/images/phoenix.png",
+            description: "Managed end-to-end social media presence for clients, building engaged communities and driving consistent organic growth."
         },
         {
             id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
+            title: "Brand Identity Design",
+            category: "Branding & Design",
+            technologies: "Adobe Creative Suite, Canva, Figma, Brand Strategy, Visual Identity",
+            image: "/images/redxchess.png",
+            description: "Developed comprehensive brand identities that communicate value, build trust, and create lasting impressions with target audiences."
         },
         {
             id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
+            title: "Digital Marketing Strategy",
+            category: "Digital Marketing",
+            technologies: "Google Analytics, SEO, Email Marketing, Meta Ads, Campaign Optimization",
             image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
+            description: "Delivered full-funnel digital marketing strategies that drive qualified leads, improve conversion rates, and accelerate business growth."
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "hello@anyframe.agency",
+        github: "https://github.com/anyframe",
+        linkedin: "https://linkedin.com/company/anyframe",
+        twitter: "https://x.com/anyframe",
+        facebook: "https://www.facebook.com/anyframe",
+        instagram: "https://www.instagram.com/anyframe"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "CONTENT CREATION",
+            description: "Building content that drives visibility, engagement, and trust",
+            details: "We craft compelling content strategies, copy, and creative assets that connect with your audience, grow your reach, and build lasting brand authority across all digital channels.",
+            tools: ["Content Strategy", "Copywriting", "SEO", "Blog Writing", "Social Media Content", "Canva", "Adobe Creative Suite", "Meta Business Suite", "Google Analytics", "Audience Research"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "SOFTWARE DEVELOPMENT",
+            description: "Developing modern websites, platforms, and scalable business solutions",
+            details: "From high-performance websites to custom business software, we build digital products that are fast, reliable, and designed to grow with your business — using modern technologies and best practices.",
+            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "REST APIs", "Docker", "Git"]
         }
     }
 };
-
-

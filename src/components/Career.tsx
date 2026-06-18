@@ -14,8 +14,8 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My career <span>&</span>
-          <br /> experience
+          Our agency <span>&</span>
+          <br /> journey
         </h2>
         <div className="career-info">
           <div className="career-timeline">

@@ -59,7 +59,7 @@ const Contact = () => {
   return (
     <div className="contact-section section-container" id="contact">
       <div className="contact-container">
-        <h3>{config.developer.fullName}</h3>
+        <h3>Let's Build Something Exceptional</h3>
         <div className="contact-flex">
           <div className="contact-box">
             <h4>Email</h4>
@@ -123,10 +123,10 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>{config.developer.fullName}</span>
+              Growth, Creativity, and <br /> Technology—<span>Perfectly Framed</span>
             </h2>
             <h5>
-              <MdCopyright /> {new Date().getFullYear()}
+              <MdCopyright /> {new Date().getFullYear()} AnyFrame
             </h5>
           </div>
         </div>
