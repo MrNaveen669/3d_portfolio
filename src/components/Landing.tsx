@@ -1,5 +1,6 @@
 import { PropsWithChildren } from "react";
 import "./styles/Landing.css";
+import { Canvas } from "@react-three/fiber";
 
 const Landing = ({ children }: PropsWithChildren) => {
   return (
@@ -25,9 +26,9 @@ const Landing = ({ children }: PropsWithChildren) => {
             </h2>
           </div>
           {/* Mobile photo - shows only on mobile when 3D character is hidden */}
-          <div className="mobile-photo">
+          {/* <div className="mobile-photo">
             <img src="/images/mypicnbg.png" alt="AnyFrame Agency" />
-          </div>
+          </div> */}
         </div>
         {children}
       </div>

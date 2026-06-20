@@ -13,29 +13,40 @@ import CallToAction from "./CallToAction";
 import setSplitText from "./utils/splitText";
 
 const MainContainer = ({ children }: PropsWithChildren) => {
-  const [isDesktopView, setIsDesktopView] = useState<boolean>(
+  const [isDesktopView, setIsDesktopView] = useState(
     window.innerWidth > 1024
   );
-  const [isMobile] = useState<boolean>(window.innerWidth <= 768);
+
+  const [isMobile, setIsMobile] = useState(
+    window.innerWidth <= 768
+  );
 
   useEffect(() => {
     const resizeHandler = () => {
       setSplitText();
+
       setIsDesktopView(window.innerWidth > 1024);
+      setIsMobile(window.innerWidth <= 768);
     };
+
     resizeHandler();
+
     window.addEventListener("resize", resizeHandler);
+
     return () => {
       window.removeEventListener("resize", resizeHandler);
     };
-  }, [isDesktopView]);
+  }, []);
 
   return (
     <div className="container-main">
       <Cursor />
       <Navbar />
       <SocialIcons />
-      {isDesktopView && !isMobile && children}
+
+      {/* 3D Character / Scene */}
+      {children}
+
       <div className="container-main">
         <Landing />
         <About />

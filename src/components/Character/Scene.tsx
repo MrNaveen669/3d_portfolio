@@ -26,6 +26,7 @@ const Scene = () => {
       let container = { width: rect.width, height: rect.height };
       const aspect = container.width / container.height;
       const scene = sceneRef.current;
+      const isMobile = window.innerWidth <= 768;
 
       const renderer = new THREE.WebGLRenderer({
         alpha: true,
@@ -33,15 +34,27 @@ const Scene = () => {
         powerPreference: "high-performance",
       });
       renderer.setSize(container.width, container.height);
-      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      renderer.setPixelRatio(
+        isMobile
+          ? Math.min(window.devicePixelRatio, 1.2)
+          : Math.min(window.devicePixelRatio, 2)
+      );
       renderer.toneMapping = THREE.ACESFilmicToneMapping;
       renderer.toneMappingExposure = 1;
       canvasDiv.current.appendChild(renderer.domElement);
 
       const camera = new THREE.PerspectiveCamera(14.5, aspect, 0.1, 1000);
+
       camera.position.z = 10;
-      camera.position.set(0, 13.1, 24.7);
-      camera.zoom = 1.1;
+
+      if (isMobile) {
+        camera.position.set(0, 13.5, 28);
+        camera.zoom = 0.95;
+      } else {
+        camera.position.set(0, 13.1, 24.7);
+        camera.zoom = 1.1;
+      }
+
       camera.updateProjectionMatrix();
 
       let headBone: THREE.Object3D | null = null;
@@ -76,8 +89,11 @@ const Scene = () => {
         }
       });
 
-      let mouse = { x: 0, y: 0 },
-        interpolation = { x: 0.1, y: 0.2 };
+      let mouse = { x: 0, y: 0 };
+
+      let interpolation = isMobile
+        ? { x: 0.03, y: 0.05 }
+        : { x: 0.1, y: 0.2 };
 
       const onMouseMove = (event: MouseEvent) => {
         handleMouseMove(event, (x, y) => (mouse = { x, y }));
@@ -99,9 +115,7 @@ const Scene = () => {
         });
       };
 
-      document.addEventListener("mousemove", (event) => {
-        onMouseMove(event);
-      });
+      document.addEventListener("mousemove", onMouseMove);
       const landingDiv = document.getElementById("landingDiv");
       if (landingDiv) {
         landingDiv.addEventListener("touchstart", onTouchStart);
@@ -109,6 +123,7 @@ const Scene = () => {
       }
       const animate = () => {
         requestAnimationFrame(animate);
+        if (document.hidden) return;
         if (headBone) {
           handleHeadRotation(
             headBone,
